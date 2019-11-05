@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skybiz.wms02">
+
+    <uses-feature android:name="android.hardware.usb.host" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".WMSApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".m_Database.Local.AndroidDatabaseManager"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".ui_SupInv.SupplierInvoice"
+            android:windowSoftInputMode="adjustNothing" ></activity>
+        <activity
+            android:name=".ui_LoadingGoods.LoadingGoodsIn"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_LoadingGoods.LoadingGoodsOut"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_PrintInvLabel.PrintInvLabel"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_GRNReceiving.GRN_Receiving"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_PickingList.PickingList"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_PrintPrepackLabel.PrintPrepackLabel2"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_PrintPrepackLabel.PrintPrepackLabel"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StockTake"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Synchronize" />
+        <activity
+            android:name=".Setting"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui_IssueStock.IssueStock"
+            android:label="@string/title_activity_issue_stock"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_Setting.Setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_Listing.Listing"
+            android:label="@string/title_activity_listing"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_GRNDO.GRNDO"
+            android:label="@string/title_activity_grndo"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_ReceiptStock.ReceiptStock"
+            android:label="@string/title_activity_receipt_stock"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_TransferStock.TransferStock"
+            android:label="@string/title_activity_transfer_stock"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui_StockEnquiry.StockEnquiry"
+            android:label="@string/title_activity_stock_enquiry"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+    </application>
+
+</manifest>

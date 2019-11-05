@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/simpleSwipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="6dp"
+          android:weightSum="1"
+          android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="0.4">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_weight="1"
+                      android:layout_height="0dp"
+                      android:visibility="visible"
+                      android:id="@+id/ln_cash"
+                      android:layout_marginTop="5dp"
+                      android:gravity="center_horizontal"
+                      android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="#212121"
+                            android:weightSum="4"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                              <TextView
+                                  android:text="Total Qty"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:gravity="left|center"
+                                  android:paddingLeft="2dp"
+                                  android:paddingRight="1dp"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:background="#f44336"
+                                  android:textSize="15sp"
+                                  android:textColor="@color/colorWhite"/>
+
+                              <TextView
+                                  android:text="0.00"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/txtTotalQty"
+                                  android:gravity="right|center_vertical"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:paddingRight="5dp"
+                                  android:background="#f44336"
+                                  android:textSize="15sp"
+                                  android:textColor="@color/colorWhite"/>
+
+                              <TextView
+                                  android:text="Total"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/tTotal"
+                                  android:gravity="left|center"
+                                  android:paddingLeft="4dp"
+                                  android:paddingRight="2dp"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:textSize="15sp"
+                                  android:textColor="#00c853"/>
+
+                              <TextView
+                                  android:text="0.00"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/txtTotal"
+                                  android:gravity="right|center"
+                                  android:paddingLeft="2dp"
+                                  android:paddingRight="5dp"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:textSize="15sp"
+                                  android:textColor="#00c853"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:visibility="gone"
+                            android:layout_weight="1"
+                            android:layout_marginTop="2dp"
+                            android:background="#f44336"
+                            android:weightSum="2"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                              <TextView
+                                  android:text="Amount Due"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/tAmountDue"
+                                  android:gravity="left|center"
+                                  android:paddingLeft="4dp"
+                                  android:paddingRight="2dp"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:textSize="15sp"
+                                  android:background="#212121"
+                                  android:textColor="#00c853"/>
+
+                              <TextView
+                                  android:text="0.00"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/txtAmountDue"
+                                  android:gravity="right|center"
+                                  android:paddingLeft="2dp"
+                                  android:paddingRight="5dp"
+                                  android:layout_weight="1"
+                                  android:textStyle="bold"
+                                  android:textSize="15sp"
+                                  android:background="#212121"
+                                  android:textColor="#00c853"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="2dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="1"
+                            android:orientation="horizontal" >
+                              <Button
+                                  android:text="SAVE"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:id="@+id/btnPay"
+                                  android:layout_weight="1"
+                                  android:layout_marginLeft="1dp"
+                                  android:layout_marginRight="1dp"
+                                  android:layout_gravity="right"
+                                  android:textColor="@color/colorWhite"
+                                  android:background="@color/color_primary" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="2"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+                              <TextView
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_weight="0.3"
+                                  android:paddingLeft="2dp"
+                                  android:text="REF # :"
+                                  android:gravity="left|center"
+                                  android:textSize="15sp"
+                                  android:textStyle="normal|bold" />
+                              <TextView
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_weight="1.7"
+                                  android:text="xxxx"
+                                  android:gravity="left|center"
+                                  android:id="@+id/txtDoc1No"
+                                  android:textSize="15sp"
+                                  android:textStyle="normal|bold" />
+                        </LinearLayout>
+                  </LinearLayout>
+            </LinearLayout>
+      </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

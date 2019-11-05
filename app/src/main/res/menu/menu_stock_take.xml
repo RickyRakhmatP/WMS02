@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skybiz.wms02.StockTake">
+
+    <item
+        android:id="@+id/mnSyncIn"
+        android:orderInCategory="100"
+        android:title="Synchronize In"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnSyncOut"
+        android:orderInCategory="100"
+        android:title="@string/mnSyncOut"
+        app:showAsAction="never" />
+</menu>

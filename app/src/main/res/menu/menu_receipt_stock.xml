@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skybiz.wms02.ui_ReceiptStock.ReceiptStock">
+    <item
+        android:id="@+id/mnSupplier"
+        android:orderInCategory="100"
+        android:title="@string/action_supplier"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnItem"
+        android:orderInCategory="100"
+        android:title="@string/mnItem"
+        app:showAsAction="never" />
+</menu>

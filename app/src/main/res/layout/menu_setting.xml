@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="Host"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:hint="Server Name"
+                android:enabled="false"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                android:id="@+id/txtServerName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="DB Name"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:hint="Database Name"
+                android:enabled="false"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                android:id="@+id/txtDBName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="User Name"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:hint="User Name"
+                android:enabled="false"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                android:id="@+id/txtUserName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="Password"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:hint="Password"
+                android:enabled="false"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/border"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:id="@+id/txtPassword"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="Port"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:hint="Port"
+                android:enabled="false"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/border"
+                android:textSize="16sp"
+                android:id="@+id/txtPort"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="DB Status"/>
+
+            <Switch
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:checked="false"
+                android:textSize="16sp"
+                android:text="Offline"
+                android:id="@+id/swDBStatus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:gravity="left|center"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:text="CharSet Type"/>
+
+            <Switch
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.4"
+                android:gravity="left|center"
+                android:paddingLeft="4dp"
+                android:checked="false"
+                android:textSize="16sp"
+                android:text="UTF-8"
+                android:id="@+id/swCharSetType"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="6dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/color_success"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="4dp"
+                android:text="Check Conn"
+                android:id="@+id/btnCheck"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/btnSave"
+                android:enabled="false"
+                android:background="@color/color_primary"
+                android:textColor="@color/colorWhite"
+                android:text="Save Changes"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

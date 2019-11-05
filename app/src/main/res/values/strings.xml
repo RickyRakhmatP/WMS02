@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">WMS02</string>
+    <string name="app_version">WMS02 - Ver. 0.8.6</string>
+    <string name="title_activity_issue_stock">IssueStock</string>
+    <string name="mnByDesc">Serching By Description</string>
+    <string name="mnItem">Select Item</string>
+    <string name="mnSyncOut">Synchronize Out</string>
+    <string name="txtDiscAmt">Discount (Amount)</string>
+    <string name="txtDiscPer">Discount \n (%)</string>
+    <string name="txtDelItem">Delete \n Item</string>
+    <string name="txtOpenModif">Open \n Modifier</string>
+    <string name="txtCloseModif">Close \n Modifier</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_supplier">Supplier</string>
+    <string name="action_locationto">Location To</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="mnSetting">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listing">Listing</string>
+    <string name="title_activity_grndo">GRNDO</string>
+    <string name="title_activity_receipt_stock">ReceiptStock</string>
+    <string name="title_activity_transfer_stock">TransferStock</string>
+    <string name="title_activity_stock_enquiry">StockEnquiry</string>
+    <string-array name="searchby_array">
+        <item>By Code</item>
+        <item>By Desc</item>
+        <item>Show All</item>
+    </string-array>
+    <string-array name="searchby2_array">
+        <item>By CusCode</item>
+        <item>By CusName</item>
+        <item>Show All</item>
+    </string-array>
+    <string-array name="reason_array">
+        <item>OTHERS</item>
+        <item>LOADING ERROR</item>
+        <item>UNDELIVER</item>
+        <item>KEEP STOCK</item>
+        <item>NO ORDER</item>
+        <item>CSR</item>
+        <item>CHOP ONLY</item>
+    </string-array>
+
+    <string-array name="searchby3_array">
+        <item>By Code</item>
+        <item>By Name</item>
+        <item>Show All</item>
+    </string-array>
+</resources>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnSupInv"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Invoice From Supplier"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                   />
+
+
+                <Button
+                    android:id="@+id/btnStockEnquiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Stock Enquiry"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnGRNDO"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Goods Receive Note"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnGRNReceive"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="GRN RECEIVING"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnIS"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Issue Stock"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnRS"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Receipt Stock"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnTS"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Transfer Stock"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnStockTake"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Stock Take"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnPickingList"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Picking List"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnPrintPrepack"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Print Prepack Label"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnPrintPrepack2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Print Prepack Label 2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnPrintInvLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Print Invoice Label"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnLoadingGoodsOUT"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="LOADING GOODS OUT"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnLoadingGoodsIN"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="LOADING GOODS OUT - Verify"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnListing"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Listing"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnSync"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Synchronize"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnSetting"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="Setting"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skybiz.wms02.ui_SupInv.SupplierInvoice">
+
+    <item
+        android:id="@+id/mnLocation"
+        android:orderInCategory="100"
+        android:title="Select Location"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mnSupplier"
+        android:orderInCategory="100"
+        android:title="Select Supplier"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnDate"
+        android:orderInCategory="100"
+        android:title="Select Date"
+        app:showAsAction="never" />
+
+</menu>
